@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+}
+
+body{
+  box-sizing: content-box;
+}
+header {
+  height: 30rem;
+  margin: 0;
+  padding: 0;
+  background-image: url(images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.loop_nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+  padding-top: 5%;
+}
+.hamburger{
+  display: none;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 25px;
+}
+.nav a:hover {
+  border-bottom: 2px solid #fff;
+  font-size: large;
+}
+.immersive {
+  font-size: 200%;
+  color: #fff;
+  font-family: monospace courier;
+  border: 2px solid rgb(255, 255, 255);
+  box-sizing:border-box;
+  width: 35%;
+  margin: 7% 0 0 5%;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.cut {
+  margin: 5%;
+}
+.interactive_the {
+  display: flex;
+}
+.interactive img{
+  width: 70%;
+}
+.the {
+  padding: 20px;
+  position: absolute;
+  width: 30%;
+  background-color: #fff;
+  top: 50em;
+  left: 40em;
+}
+.the h2 {
+  font-size: 30px;
+  width: 30%;
+}
+.our_see {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.our {
+  font-size: 35px;
+}
+.see button {
+  margin: 35px;
+  padding: 5px 20px;
+}
+button:hover {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+.images p {
+  font-size: 60px;
+  color: #fff;
+  font-family: monospace;
+  margin-top: 120%;
+  margin-left: 5%;
+  text-shadow: 1px 1px 2px BLACK;
+}
+.line1 {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+.back1 {
+  background-image: url(images/desktop/image-deep-earth.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  margin-right: 20px;
+  width: 25%;
+}
+.back2 {
+  background-image: url(images/desktop/image-night-arcade.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 20px;
+  width: 25%;
+}
+.back3 {
+  background-image: url(images/desktop/image-soccer-team.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 20px;
+  width: 25%;
+}
+.back4 {
+  background-image: url(images/desktop/image-grid.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 20px;
+  width: 25%;
+}
+.line2 {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  margin-top: 15px;
+}
+.b5 {
+  background-image: url(images/desktop/image-from-above.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 20px;
+  width: 25%;
+}
+.b6 {
+  background-image: url(images/desktop/image-pocket-borealis.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 20px;
+  width: 25%;
+}
+.b7 {
+  background-image: url(images/desktop/image-curiosity.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 20px;
+  width: 25%;
+}
+.b8 {
+  background-image: url(images/desktop/image-fisheye.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 20px;
+  width: 25%;
+}
+.back1:hover {
+  opacity: 0.5;
+}
+.back2:hover {
+  opacity: 0.5;
+}
+.back3:hover {
+  opacity: 0.5;
+}
+.back4:hover {
+  opacity: 0.5;
+}
+.b5:hover {
+  opacity: 0.5;
+}
+.b6:hover {
+  opacity: 0.5;
+}
+.b7:hover {
+  opacity: 0.5;
+}
+.b8:hover {
+  opacity: 0.5;
+}
+.footer {
+  background-color: #000;
+}
+.footwid {
+  padding: 3% 5%;
+  height: 50px;
+}
+.loop_icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icons {
+  display: flex;
+}
+.icons img {
+  margin-right: 10px;
+  height: 25px;
+}
+.icons img:hover {
+  border-bottom: 2px solid #fff;
+}
+.copy_link {
+  display: flex;
+  justify-content: space-between;
+}
+.copy {
+  color: #fff;
+}
+.links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 15px;
+}
+.links a:hover {
+  border-bottom: 2px solid white;
+}
+.attribution{
+    color:red
+    }
+
+    @media screen and (max-width: 700px) {
+       .nav{
+        display: none;
+       }
+       header {
+        height: 600px;
+        background-image: url(images/mobile/image-hero.jpg);
+        background-position: center;
+      }
+      .immersive{
+        margin:25% auto auto auto;
+        width: 70%;
+        padding:auto;
+      }
+    }
